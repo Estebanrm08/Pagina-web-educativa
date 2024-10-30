@@ -1,0 +1,897 @@
+.logo-icon1 {
+    height: 71px;
+    width: 72px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .fortubil2 {
+    text-decoration: none;
+    height: 39px;
+    position: relative;
+    line-height: 16px;
+    font-weight: 900;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .fortubil-name,
+  .logo-name1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .fortubil-name {
+    flex-direction: column;
+    padding: var(--padding-base) 0 0;
+  }
+  .logo-name1 {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    max-width: 100%;
+    cursor: pointer;
+  }
+  .cursos4 {
+    text-decoration: none;
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 70px;
+  }
+  .cursos3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contacto1 {
+    text-decoration: none;
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    color: inherit;
+    white-space: nowrap;
+  }
+  .preguntas1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sobre-nosotros3 {
+    text-decoration: none;
+    width: 165.3px;
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .nav-items1,
+  .sobre-nosotros2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .sobre-nosotros2 {
+    align-items: flex-start;
+    padding: 0;
+    color: var(--color-limegreen);
+  }
+  .nav-items1 {
+    margin: 0;
+    align-self: stretch;
+    align-items: flex-end;
+    gap: var(--gap-35xl);
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+  }
+  .encabezado1,
+  .navigation1,
+  .page-wrapper {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .navigation1 {
+    margin: 0;
+    width: 564px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-7xl) 0 0;
+  }
+  .encabezado1,
+  .page-wrapper {
+    flex-direction: row;
+  }
+  .encabezado1 {
+    flex: 1;
+    background-color: var(--color-indigo-200);
+    justify-content: space-between;
+    padding: var(--padding-3xs) var(--padding-17xl) var(--padding-4xs)
+      var(--padding-11xl);
+    mix-blend-mode: normal;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-31xl);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+  }
+  .page-wrapper {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xs);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+  }
+  .nosotros {
+    position: relative;
+    line-height: 16px;
+    font-weight: 900;
+    display: inline-block;
+    min-width: 122px;
+  }
+  .somos {
+    color: var(--color-limegreen);
+  }
+  .quines-somos {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-31xl);
+    line-height: 32px;
+    font-weight: 700;
+    font-family: var(--font-eb-garamond);
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-16xl);
+    max-width: 100%;
+  }
+  .fortubil-es-la {
+    flex: 1;
+    position: relative;
+    line-height: 35px;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .about-content-parent,
+  .guide-description,
+  .inner-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .guide-description {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .about-content-parent,
+  .inner-content {
+    flex-direction: column;
+  }
+  .about-content-parent {
+    align-self: stretch;
+    gap: var(--gap-47xl);
+  }
+  .inner-content {
+    flex: 1;
+    padding: 0 0 60px;
+    box-sizing: border-box;
+    min-width: 415px;
+    min-height: 489px;
+  }
+  .imagen,
+  .imagen-icon {
+    position: absolute;
+    bottom: 0;
+    border-radius: var(--br-31xl);
+    overflow: hidden;
+  }
+  .imagen {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 1.3%;
+    background-color: var(--color-limegreen);
+  }
+  .imagen-icon {
+    height: 97.63%;
+    width: 96.09%;
+    top: 2.37%;
+    right: 3.91%;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .component-6 {
+    height: 632px;
+    width: 537px;
+    position: relative;
+    min-width: 537px;
+    max-width: 100%;
+  }
+  .content-wrapper {
+    width: 1217px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 41px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .con-los-jvenes {
+    color: var(--color-black);
+  }
+  .nuestra-meta-con-container {
+    position: relative;
+    line-height: 16px;
+  }
+  .nuestra-meta-con-los-jvenes-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-5xl);
+  }
+  .obj1 {
+    height: 100%;
+    width: 348.6px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 61.45px;
+    background-color: #862fe7;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .busqueda-icon {
+    height: 254.4px;
+    width: 254.4px;
+    position: relative;
+    z-index: 1;
+  }
+  .search-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-4xs) 0 var(--padding-3xs);
+  }
+  .brindar-informacin-de {
+    align-self: stretch;
+    position: relative;
+    line-height: 24.07px;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .objective-item-one {
+    width: 293.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 var(--padding-lgi) 0 0;
+    box-sizing: border-box;
+    gap: 16.5px;
+    font-size: 21.5px;
+    color: var(--color-white);
+  }
+  .obj2 {
+    height: 349px;
+    width: 268.2px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -153.8px;
+    left: -53.5px;
+    border-radius: 47.27px;
+    background-color: var(--color-midnightblue);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .rapido-icon {
+    height: 159px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .double-inner-speed-icon,
+  .inner-speed-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .double-inner-speed-icon {
+    flex: 1;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .inner-speed-icon-container {
+    width: 181.5px;
+    justify-content: flex-end;
+    padding: 0 var(--padding-11xs);
+    box-sizing: border-box;
+  }
+  .proveer-informacin-accesible {
+    align-self: stretch;
+    position: relative;
+    line-height: 24.07px;
+    z-index: 1;
+  }
+  .objective-item-two,
+  .speed-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .speed-icon-container {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 9.6px;
+  }
+  .objective-item-two {
+    width: 197.7px;
+    align-items: flex-start;
+    padding: 54.2px 0 0;
+    box-sizing: border-box;
+  }
+  .group-icon {
+    height: 154.7px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .double-inner-language-icon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 53px;
+  }
+  .obj3 {
+    height: 349px;
+    width: 268.2px;
+    position: absolute;
+    margin: 0 !important;
+    top: -180.7px;
+    left: -18.1px;
+    border-radius: 47.27px;
+    background-color: var(--color-midnightblue);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .presentar-el-vocabulario {
+    flex: 1;
+    position: relative;
+    line-height: 24.07px;
+    z-index: 1;
+  }
+  .language-description {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .inner-language-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 6.2px;
+    min-width: 151px;
+  }
+  .obj4 {
+    height: 349px;
+    width: 268.2px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -174.5px;
+    left: -56.9px;
+    border-radius: 47.27px;
+    background-color: var(--color-midnightblue);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .actualizar-icon {
+    height: 154.7px;
+    width: 154.7px;
+    position: relative;
+    z-index: 1;
+  }
+  .inner-update-container,
+  .update-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .inner-update-container {
+    justify-content: flex-start;
+    position: relative;
+  }
+  .update-icon-container {
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xs);
+  }
+  .text {
+    align-self: stretch;
+    height: 0;
+    position: relative;
+    line-height: 24.07px;
+    display: inline-block;
+    z-index: 1;
+  }
+  .objective-item-four {
+    width: 219.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 54.4px;
+    min-width: 219.2px;
+  }
+  .language-icon-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 43px;
+  }
+  .objective-item-three {
+    width: 494.3px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 37.8px 0 0;
+    box-sizing: border-box;
+  }
+  .objective-item-three,
+  .objectives-content,
+  .objetivos {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .objetivos {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 34.4px var(--padding-37xl) 51.3px var(--padding-18xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-lg-9);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .objectives-content {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 79px;
+  }
+  .objectives-content-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-10xs) 0 0;
+    flex-shrink: 0;
+    font-size: 47.2px;
+    color: var(--color-limegreen);
+    font-family: var(--font-eb-garamond);
+  }
+  .content,
+  .content-wrapper-parent,
+  .objectives-content-wrapper {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .content-wrapper-parent {
+    height: 1269.6px;
+    width: 1250px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 637.6px;
+    gap: 89px;
+  }
+  .content {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 118.4px var(--padding-3xl);
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .fortubil3 {
+    color: var(--color-limegreen);
+  }
+  .por-qu-fortubil-container1 {
+    width: 100%;
+  }
+  .por-qu-fortubil-container {
+    margin: 0;
+    width: 398px;
+    position: relative;
+    font-size: inherit;
+    line-height: 55px;
+    font-weight: 800;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .billete1-icon {
+    height: 207px;
+    width: 239.6px;
+    position: relative;
+    object-fit: contain;
+  }
+  .bill-instance,
+  .por-qu-fortubil-fomenta-la-cu-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .por-qu-fortubil-fomenta-la-cu-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+    max-width: 100%;
+  }
+  .moneda-signo-icon {
+    width: 136.6px;
+    height: 132px;
+    position: absolute;
+    margin: 0 !important;
+    top: -91px;
+    left: -35px;
+    object-fit: contain;
+  }
+  .culture-description {
+    width: 407.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-32xl) 0 0;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 407.6px;
+    max-width: 100%;
+  }
+  .la-falta-de {
+    margin-left: -0.5px;
+    flex: 1;
+    position: relative;
+    line-height: 35px;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .lack-education {
+    flex: 1;
+    border-radius: var(--br-31xl);
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0;
+    box-sizing: border-box;
+    min-width: 558px;
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-montserrat);
+  }
+  .culture-content,
+  .financial-culture,
+  .lack-education {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .culture-content {
+    flex: 1;
+    justify-content: center;
+    gap: 55.9px;
+  }
+  .financial-culture {
+    width: 1395px;
+    justify-content: flex-end;
+    padding: 0 var(--padding-17xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-31xl);
+    color: var(--color-black);
+    font-family: var(--font-eb-garamond);
+  }
+  .contactanos {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .contact-title {
+    width: 337px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-6xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .letter-icon {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    object-fit: cover;
+  }
+  .holafortubilcom {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .email-container,
+  .letter-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .email-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .letter-parent {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    max-width: 100%;
+    margin-top: -5px;
+    color: var(--color-limegreen);
+  }
+  .contacto2,
+  .pag2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .contacto2 {
+    margin-right: -6px;
+    align-self: stretch;
+    background-color: var(--color-indigo-200);
+    align-items: center;
+    padding: var(--padding-4xs) 34px var(--padding-base) var(--padding-xl);
+    mix-blend-mode: normal;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-eb-garamond);
+  }
+  .pag2 {
+    width: 100%;
+    height: 2237px;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    align-items: flex-end;
+    padding: 0 0 179px;
+    gap: 62px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .objetivos {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+    .content,
+    .content-wrapper-parent {
+      padding-bottom: 414px;
+      box-sizing: border-box;
+    }
+    .content {
+      padding-bottom: 77px;
+    }
+    .culture-description {
+      flex: 1;
+    }
+    .culture-content {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .navigation1 {
+      display: none;
+    }
+    .quines-somos {
+      font-size: var(--font-size-21xl);
+      line-height: 13px;
+    }
+    .component-6 {
+      flex: 1;
+    }
+    .content-wrapper {
+      flex-wrap: wrap;
+    }
+    .nuestra-meta-con-container {
+      font-size: 38px;
+      line-height: 12px;
+    }
+    .content-wrapper-parent {
+      height: auto;
+      padding-bottom: 269px;
+      box-sizing: border-box;
+    }
+    .por-qu-fortubil-container {
+      font-size: var(--font-size-21xl);
+      line-height: 44px;
+    }
+    .contactanos,
+    .holafortubilcom {
+      font-size: var(--font-size-9xl);
+      line-height: 32px;
+    }
+    .pag2 {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .nav-items1 {
+      gap: var(--gap-8xl);
+    }
+    .about-content-parent {
+      gap: var(--gap-14xl);
+    }
+    .inner-content {
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .component-6 {
+      min-width: 100%;
+    }
+    .content-wrapper {
+      gap: var(--gap-xl);
+    }
+    .inner-update-container,
+    .objective-item-four {
+      flex: 1;
+    }
+    .language-icon-container {
+      gap: var(--gap-2xl);
+      flex-wrap: wrap;
+    }
+    .objectives-content {
+      gap: var(--gap-20xl);
+    }
+    .content-wrapper-parent {
+      gap: 44px;
+      padding-bottom: 175px;
+      box-sizing: border-box;
+    }
+    .content {
+      padding-bottom: var(--padding-31xl);
+      box-sizing: border-box;
+    }
+    .culture-description,
+    .lack-education {
+      min-width: 100%;
+    }
+    .culture-content {
+      gap: var(--gap-9xl);
+    }
+    .pag2 {
+      gap: 31px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .nosotros {
+      font-size: var(--font-size-xl);
+      line-height: 13px;
+    }
+    .quines-somos {
+      font-size: var(--font-size-11xl);
+      line-height: 10px;
+    }
+    .about-content {
+      gap: var(--gap-mid);
+    }
+    .fortubil-es-la {
+      font-size: var(--font-size-xl);
+      line-height: 28px;
+    }
+    .about-content-parent {
+      gap: var(--gap-base);
+    }
+    .nuestra-meta-con-container {
+      font-size: var(--font-size-9xl);
+      line-height: 9px;
+    }
+    .brindar-informacin-de {
+      font-size: 17px;
+      line-height: 19px;
+    }
+    .objetivos {
+      padding-top: var(--padding-3xl);
+      padding-bottom: var(--padding-14xl);
+      box-sizing: border-box;
+    }
+    .objectives-content {
+      gap: var(--gap-xl);
+    }
+    .content-wrapper-parent {
+      gap: var(--gap-3xl);
+    }
+    .por-qu-fortubil-container {
+      font-size: var(--font-size-11xl);
+      line-height: 33px;
+    }
+    .culture-description {
+      padding-top: var(--padding-14xl);
+      box-sizing: border-box;
+    }
+    .la-falta-de {
+      font-size: var(--font-size-xl);
+      line-height: 28px;
+    }
+    .contactanos,
+    .holafortubilcom {
+      font-size: var(--font-size-2xl);
+      line-height: 24px;
+    }
+    .letter-parent {
+      flex-wrap: wrap;
+    }
+    .pag2 {
+      gap: 15px;
+    }
+  }
+  
