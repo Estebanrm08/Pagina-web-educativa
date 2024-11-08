@@ -2,11 +2,16 @@ body {
     margin: 0;
     line-height: normal;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+ 
+
   
   :root {
     /* fonts */
-    --font-montserrat: Montserrat;
-    --font-eb-garamond: "EB Garamond";
+    
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-eb-garamond: 'EB Garamond';
   
     /* font sizes */
     --font-size-xl: 20px;

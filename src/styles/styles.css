@@ -16,6 +16,9 @@
   align-items: center;
   white-space: nowrap;
 }
+
+
+
 .fortubil-wrapper,
 .logo-name {
   display: flex;
@@ -124,14 +127,20 @@
   color: var(--color-white);
   font-family: var(--font-montserrat);
 }
-.plataforma-de-educacin {
+.plataforma-de-educacion {
   position: relative;
   letter-spacing: 1.4px;
   line-height: 21px;
   text-transform: uppercase;
+  margin-block-start: 45px;
+  margin-block-end: 35px;
+  font-size: 19px;
   font-weight: 800;
+  font-style: normal;
+  align-self: center;
+  color: var(--color-indigo-100);
 }
-.plataforma-de-educacin-financ-wrapper {
+.plataforma-de-educacion-financ-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -139,21 +148,25 @@
   justify-content: center;
   padding: 0 var(--padding-xl) 0 var(--padding-3xl);
 }
-.despierta-tu-potencial {
-  margin-block-start: 0;
-  margin-block-end: 30px;
+
+.como-funciona-fortubil-container{
+  align-self: center;
 }
+
 .dinero {
   color: var(--color-limegreen);
 }
 .span {
   color: var(--color-black);
 }
-.y-aprende-fcil-de-dinero {
-  margin: 0;
+
+.despierta-tu-potencial {
+  margin-block-start: 0;
+  margin-block-end: 30px;
 }
+
 .despierta-tu-potencial-container {
-  margin: 0;
+  margin: 1px;
   align-self: stretch;
   position: relative;
   font-size: 70px;
@@ -354,7 +367,7 @@
   justify-content: center;
   padding: 0 var(--padding-xl);
 }
-.encuentra-todo-lo {
+.encuentra-todo-lo-de-finanzas{
   flex: 1;
   position: relative;
   line-height: 32px;
@@ -372,6 +385,11 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
+.lenguaje-facil{
+  
+}
+
 .fuente-de-recopilacin {
   align-self: stretch;
   position: relative;

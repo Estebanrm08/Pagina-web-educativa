@@ -1,8 +1,8 @@
 import React from "react";
-import LandingPage from "./components/LandingPage";
 import AboutUs from "./components/AboutUs";
 import FinancialCulture from "./components/FinancialCulture";
 import Footer from "./components/Footer";
+import LandingPage from "./components/LandingPage";
 import Objectives from "./components/Objectives";
 import "./styles/global.css";
 import "./styles/styles.css";
@@ -12,8 +12,8 @@ const App = () => {
     <div>
       <LandingPage />
       <AboutUs />
-      <FinancialCulture />
       <Objectives />
+      <FinancialCulture />
       <Footer />
     </div>
   );
